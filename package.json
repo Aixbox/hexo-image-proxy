@@ -1,0 +1,44 @@
+{
+  "name": "hexo-image-proxy",
+  "version": "1.0.0",
+  "description": "A Hexo plugin that automatically proxies cross-domain images through your proxy server",
+  "main": "index.js",
+  "keywords": [
+    "hexo",
+    "plugin",
+    "image",
+    "proxy",
+    "cdn",
+    "cross-domain",
+    "cors"
+  ],
+  "author": "Aixbox <your-email@example.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/Aixbox/hexo-image-proxy#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aixbox/hexo-image-proxy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Aixbox/hexo-image-proxy/issues"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "peerDependencies": {
+    "hexo": ">=5.0.0"
+  },
+  "files": [
+    "index.js",
+    "lib/",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "prepublishOnly": "npm run lint"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0"
+  }
+}
