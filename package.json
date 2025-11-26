@@ -12,12 +12,12 @@
     "cross-domain",
     "cors"
   ],
-  "author": "Aixbox <your-email@example.com>",
+  "author": "Aixbox",
   "license": "MIT",
   "homepage": "https://github.com/Aixbox/hexo-image-proxy#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Aixbox/hexo-image-proxy.git"
+    "url": "https://github.com/Aixbox/hexo-image-proxy.git"
   },
   "bugs": {
     "url": "https://github.com/Aixbox/hexo-image-proxy/issues"

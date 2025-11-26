@@ -5,6 +5,8 @@
 
 一个 Hexo 插件，自动将跨域图片通过代理服务器加载，解决图片访问限制和加速问题。
 
+中文文档 | [English](README_EN.md)
+
 ## 🚀 功能特性
 
 - ✅ **自动检测跨域图片** - 智能识别需要代理的外部图片
@@ -81,6 +83,8 @@ image_proxy:
 - Front Matter 中的 `cover` 和 `top_img`
 
 ## 🛠️ 代理服务器搭建
+
+参考项目[img-cf-worker-proxy](https://github.com/Aixbox/img-cf-worker-proxy)搭建Cloudflare Workers图片代理服务器。
 
 ### 使用 Cloudflare Workers
 
