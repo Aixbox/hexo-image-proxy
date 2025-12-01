@@ -1,6 +1,6 @@
 {
   "name": "hexo-image-proxy",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A Hexo plugin that automatically proxies cross-domain images through your proxy server",
   "main": "index.js",
   "keywords": [
