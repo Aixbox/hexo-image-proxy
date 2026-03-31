@@ -35,7 +35,7 @@ image_proxy:
   site_domain: 'aixbox.top'                # 您的站点域名（可选）
   log_enabled: false                       # 是否启用详细日志
 ```
-
+可以使用cf进行代理，参考：https://github.com/Aixbox/img-cf-worker-proxy
 ### 高级配置
 
 ```yaml
